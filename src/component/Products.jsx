@@ -43,7 +43,7 @@ const Products = () => {
     );
   };
 
-  const filterProducts = (cat) => {
+  const filterProduct = (cat) => {
     const updatedList = data.filter((x) => x.category === cat);
     setFilter(updatedList);
   };
@@ -59,25 +59,25 @@ const Products = () => {
           </button>
           <button
             className=" btn btn-outline-dark me-2"
-            onClick={() => filterProducts("men's clothing")}
+            onClick={() => filterProduct("men's clothing")}
           >
             Men's Clothing
           </button>
           <button
             className=" btn btn-outline-dark me-2"
-            onClick={() => filterProducts("women's clothing")}
+            onClick={() => filterProduct("women's clothing")}
           >
             Women's Clothing
           </button>
           <button
             className=" btn btn-outline-dark me-2"
-            onClick={() => filterProducts("jewelery")}
+            onClick={() => filterProduct("jewelery")}
           >
             Jewelery
           </button>
           <button
             className=" btn btn-outline-dark me-2"
-            onClick={() => filterProducts("electronics")}
+            onClick={() => filterProduct("electronics")}
           >
             Electronic
           </button>

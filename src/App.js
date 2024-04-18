@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/products" exact element={<Products />} />
-            <Route path="/product/:id" exact element={<Product />} />
+            <Route path="/products/:productId" exact element={<Product />} />
           </Routes>
         </div>
       </Router>

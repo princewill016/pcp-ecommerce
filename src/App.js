@@ -5,6 +5,11 @@ import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 import Products from "./component/Products";
 import Product from "./component/Product";
+import Cart from "./component/Product";
+import About from "./component/About";
+import Contact from "./component/Contact";
+import Login from "./component/Login";
+import Register from "./component/Register";
 
 function App() {
   return (
@@ -16,6 +21,11 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/products" exact element={<Products />} />
             <Route path="/products/:productId" exact element={<Product />} />
+            <Route path="/cart" exact element={<Cart />} />
+            <Route path="/about" exact element={<About />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/login" exact element={<Login />} />
+            <Route path="/register" exact element={<Register />} />
           </Routes>
         </div>
       </Router>

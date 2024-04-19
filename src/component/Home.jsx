@@ -4,37 +4,6 @@ import Products from "./Products";
 function Home() {
   return (
     <div className="hero">
-      {/* <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src="/assets/firstca.jpg"
-              className="d-block w-100"
-              alt="first carosel"
-            />{" "}
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/assets/secondca.jpg"
-              className="d-block w-100"
-              alt="second carosel"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/assets/thirdca.jpg"
-              className="d-block w-100"
-              alt="third carosel"
-            />
-          </div>
-        </div>
-      </div> */}
-
-      {/* gap */}
       <div className="card bg-dark text-white border-0">
         <img
           src="/assets/cardh.jpg"
@@ -57,4 +26,3 @@ function Home() {
 }
 
 export default Home;
-

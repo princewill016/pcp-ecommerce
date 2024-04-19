@@ -21,11 +21,11 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/products" exact element={<Products />} />
             <Route path="/products/:productId" exact element={<Product />} />
-            <Route path="/cart" exact element={<Cart />} />
             <Route path="/about" exact element={<About />} />
             <Route path="/contact" exact element={<Contact />} />
             <Route path="/login" exact element={<Login />} />
             <Route path="/register" exact element={<Register />} />
+            <Route path="/cart" exact element={<Cart />} />
           </Routes>
         </div>
       </Router>

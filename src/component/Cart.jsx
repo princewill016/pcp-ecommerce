@@ -1,9 +1,8 @@
 import React from "react";
 import { UseSelector, useDispatch, useSelector } from "react-redux";
-import { UseDispatch } from "react-redux";
 import { delItem } from "../redux/action/index";
 const Cart = () => {
-  const state = useSelector((state) => state.addItem);
+  const state = useSelector((state) => state.addCart);
   const dispatch = useDispatch();
 
   const cartItems = (cartItems) => {

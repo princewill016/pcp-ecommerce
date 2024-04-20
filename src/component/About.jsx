@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="container mt-5 text-center">
+    <div className="container mt-5 text-center py-5">
       <h1 className="fw-bolder">About PCP-SHOPPINGS</h1>
       <p>
         Welcome to PCP-SHOPPINGS, where passion meets convenience in the realm

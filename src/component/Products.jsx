@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 
 const Products = () => {
   const [data, setData] = useState([]);

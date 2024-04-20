@@ -7,7 +7,7 @@ const Cart = () => {
 
   const cartItems = (cartItems) => {
     return (
-      <div className="px-4 my-5 bg-light rounder-3" key={cartItems.key}>
+      <div className="px-5 my-5 bg-light rounder-3" key={cartItems.key}>
         <div className="container py-4">
           <button className="btn-close float-end" aria-label="Close"></button>
           <div className="row justify-content-center">

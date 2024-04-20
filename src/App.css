@@ -1,4 +1,6 @@
-/*Navbar*/
-.navbar-nav-a {
-  font-size: 18px;
+.navbar {
+  background-color: wheat;
+}
+li {
+  font-size: 14px;
 }

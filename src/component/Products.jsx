@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
 import { NavLink } from "react-router-dom";
-import Footer from "./Footer";
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -57,30 +56,35 @@ const Products = () => {
           <button
             className=" btn btn-outline-dark me-2"
             onClick={() => setFilter(data)}
+            style={{ color: "red" }}
           >
             All
           </button>
           <button
             className=" btn btn-outline-dark me-2"
             onClick={() => filterProduct("men's clothing")}
+            style={{ color: "red" }}
           >
             Men's Clothing
           </button>
           <button
             className=" btn btn-outline-dark me-2"
             onClick={() => filterProduct("women's clothing")}
+            style={{ color: "red" }}
           >
             Women's Clothing
           </button>
           <button
             className=" btn btn-outline-dark me-2"
             onClick={() => filterProduct("jewelery")}
+            style={{ color: "red" }}
           >
             Jewelery
           </button>
           <button
             className=" btn btn-outline-dark me-2"
             onClick={() => filterProduct("electronics")}
+            style={{ color: "red" }}
           >
             Electronic
           </button>
@@ -89,12 +93,18 @@ const Products = () => {
           return (
             <>
               <div className="col-md-3 mb-4">
-                <div className="card h-100  text-center p-4" key={product.id}>
+                <div
+                  className="card h-100   text-center p-4"
+                  id="rounded"
+                  key={product.id}
+                  style={{ backgroundColor: "#c9b28e", color: "#fff8dc" }}
+                >
                   <img
                     src={product.image}
                     className="card-img-top"
                     alt={product.title}
                     height="250px"
+                    style={{ borderRadius: "10px" }}
                   />
                   <div className="card-body">
                     <h5 className="card-title mb-0">
@@ -104,6 +114,7 @@ const Products = () => {
                     <NavLink
                       to={`/products/${product.id}`}
                       className="btn btn-outline-dark"
+                      style={{ color: "#90EE90" }}
                     >
                       Buy now
                     </NavLink>

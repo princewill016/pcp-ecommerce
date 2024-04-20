@@ -16,7 +16,7 @@ function Register() {
   };
 
   return (
-    <div className="container mt-5 py-5">
+    <div className="container mt-5 py-5 bb">
       <h1 className="text-center fw-bolder">Register</h1>
       <div className="row justify-content-center">
         <div className="col-md-6">

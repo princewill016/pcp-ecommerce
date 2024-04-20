@@ -3,20 +3,30 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4">
-      <div className="container">
+      <div
+        className="container"
+        style={{ color: "#fa8072", fontStyle: "italic" }}
+      >
         <div className="row">
           <div className="col-md-6">
-            <h5>Footer Navigation</h5>
+            <h5
+              style={{ fontSize: "20px", color: "wheat", fontWeight: "bolder" }}
+            >
+              Page Navigation
+            </h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/"
+                  style={{ textDecoration: "none", color: "#fa8072" }}
+                >
                   Home
                 </a>
               </li>
               <li>
                 <a
                   href="/products"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#fa8072" }}
                 >
                   Products
                 </a>
@@ -24,7 +34,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/about"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#fa8072" }}
                 >
                   About
                 </a>
@@ -32,7 +42,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/contact"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#fa8072" }}
                 >
                   Contact
                 </a>
@@ -40,7 +50,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/login"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#fa8072" }}
                 >
                   Login
                 </a>
@@ -48,7 +58,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/register"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#fa8072" }}
                 >
                   Register
                 </a>
@@ -56,7 +66,11 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-6">
-            <h5>Contact Information</h5>
+            <h5
+              style={{ fontSize: "20px", color: "wheat", fontWeight: "bolder" }}
+            >
+              Contact Information
+            </h5>
             <p>123 Street Name, City, Country</p>
             <p>Phone: +1234567890</p>
             <p>Email: info@example.com</p>
@@ -66,7 +80,7 @@ const Footer = () => {
                 href="#"
                 style={{
                   textDecoration: "none",
-                  color: "white",
+                  color: "#fa8072",
                   marginRight: "10px",
                 }}
               >
@@ -76,13 +90,13 @@ const Footer = () => {
                 href="#"
                 style={{
                   textDecoration: "none",
-                  color: "white",
+                  color: "#fa8072",
                   marginRight: "10px",
                 }}
               >
                 <i className="fa fa-twitter" style={{ fontSize: "24px" }}></i>
               </a>
-              <a href="#" style={{ textDecoration: "none", color: "white" }}>
+              <a href="#" style={{ textDecoration: "none", color: "#fa8072" }}>
                 <i className="fa fa-instagram" style={{ fontSize: "24px" }}></i>
               </a>
             </div>
@@ -96,8 +110,7 @@ const Footer = () => {
               className="text-light"
               style={{
                 textDecoration: "none",
-                color: "white",
-                fontStyle: "italic",
+                color: "#fa8072"
               }}
             >
               Privacy Policy
@@ -108,8 +121,7 @@ const Footer = () => {
               className="text-light"
               style={{
                 textDecoration: "none",
-                color: "white",
-                fontStyle: "italic",
+                color: "#fa8072"
               }}
             >
               Terms of Service
@@ -119,8 +131,6 @@ const Footer = () => {
             className="col-md-6 text-md-end"
             style={{
               textDecoration: "none",
-              color: "white",
-              fontStyle: "italic",
             }}
           >
             <p>&copy; 2024 PCP-Shoppings. All rights reserved.</p>

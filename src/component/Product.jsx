@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
-import Footer from "./Footer";
 
 const Product = () => {
   const { id } = useParams();
@@ -13,6 +12,7 @@ const Product = () => {
 
   const dispatch = useDispatch();
   const addProduct = (product) => {
+    console.log("Product:", product);
     dispatch(addCart(product));
   };
 

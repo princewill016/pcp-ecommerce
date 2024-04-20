@@ -1,6 +1,16 @@
 .navbar {
   background-color: wheat;
+  color: #fa8072;
 }
 li {
   font-size: 14px;
+}
+#rounded {
+  border-radius: 20px;
+}
+.ba {
+  margin-bottom: 20%;
+}
+.bb {
+  margin-bottom: 15%;
 }
